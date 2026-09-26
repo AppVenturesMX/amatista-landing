@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { MapPin } from "lucide-react"
 import { PREAPRUEBA_URL, WHATSAPP_URL } from "@/lib/links"
+import { PhotoWatermark } from "./photo-watermark"
 
 /* Marca de 7 puntos (SOC / Sinergia), dibujada como SVG para que se vea nitida a cualquier tamano */
 function SocMark({ className }: { className?: string }) {
@@ -123,12 +124,13 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative"
         >
-          <div className="overflow-hidden rounded-3xl shadow-2xl shadow-black/50 ring-1 ring-white/15">
+          <div className="relative overflow-hidden rounded-3xl shadow-2xl shadow-black/50 ring-1 ring-white/15">
             <img
               src="/images/fachada-modelo.jpg"
               alt="Fachada de una casa terminada del desarrollo Punta Azul, con cochera y roof deck"
               className="aspect-[4/3] w-full object-cover"
             />
+            <PhotoWatermark />
           </div>
         </motion.div>
       </div>

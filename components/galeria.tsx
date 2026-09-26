@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Reveal } from "@/components/reveal"
+import { PhotoWatermark } from "@/components/photo-watermark"
 
 const fotos = [
   { src: "/images/fachada-modelo.jpg", alt: "Fachada de una casa terminada del desarrollo Punta Azul, con cochera y roof deck" },
@@ -70,6 +71,8 @@ export function Galeria() {
                   {current.alt}
                 </p>
               </div>
+
+              <PhotoWatermark />
 
               <button
                 onClick={() => go(-1)}
