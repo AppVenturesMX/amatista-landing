@@ -5,6 +5,12 @@ export function SiteFooter() {
         <span className="text-lg font-bold text-slate-800">
           Amatista, Punta Azul
         </span>
+        <a
+          href="https://www.bienesraiceshub.com"
+          className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-700 hover:underline"
+        >
+          ← Ver todas las propiedades en Bienes Raíces Hub
+        </a>
         <p className="mt-4 text-sm leading-relaxed text-slate-500">
           Precio expresado en dólares americanos (USD). Propiedad en
           construcción: las fotos incluyen renders de diseño y avance de
