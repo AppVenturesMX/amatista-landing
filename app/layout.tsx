@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: 'Casa Amatista en Punta Azul, Rosarito | $295,000 USD',
   description:
     'Casa nueva de 157 m² de construcción sobre 120 m² de terreno en el fraccionamiento privado Punta Azul (Lienzo Charro), Playas de Rosarito. 3 recámaras, 4 baños, roof deck con vista al mar y amenidades tipo resort. Agenda tu visita con el asesor.',
+  // Esta landing es una versión de campaña (ads, WhatsApp) de la misma
+  // propiedad que ya vive en
+  // bienesraiceshub.com/propiedad/amatista-punta-azul. El canonical marca
+  // al Hub como la versión preferida para Google. Ver
+  // claude/estrategia-seo-google-oct-2026.md, sección 1.
+  alternates: {
+    canonical: 'https://www.bienesraiceshub.com/propiedad/amatista-punta-azul',
+  },
   openGraph: {
     title: 'Casa Amatista en Punta Azul, Rosarito | $295,000 USD',
     description:
