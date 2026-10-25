@@ -130,7 +130,7 @@ export function Hero() {
               alt="Fachada de una casa terminada del desarrollo Punta Azul, con cochera y roof deck"
               className="aspect-[4/3] w-full object-cover"
             />
-            <PhotoWatermark />
+            <PhotoWatermark variant="full" />
           </div>
         </motion.div>
       </div>
